@@ -172,6 +172,7 @@ article{
 .article{
     position: relative;
     padding-left: 144px;
+    min-height: 85px;
 }
 
 .article img{
