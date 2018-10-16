@@ -153,7 +153,7 @@ article{
 
 /* ========================main=========================== */
 .content{
-    margin: 40px 0 67px;
+    margin: 40px 0 27px;
 }
 
 .promo{
@@ -198,16 +198,12 @@ article{
 }
 
 .footer .copyright{
-    font-family: 'Verdana', 'Arial', sans-serif;
-    color:  #f9da5a;
-    line-height: 16px;
     position: absolute;
-    left: 0;
+    left: 20px;
 }
 
 .footer .footermenu{
     position: absolute;
-    top: 40px;
     right: 20px;
 }
 
