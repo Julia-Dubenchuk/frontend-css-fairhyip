@@ -153,6 +153,7 @@ article{
 
 /* ========================main=========================== */
 .content{
+    display: block;
     margin: 40px 0 27px;
 }
 
@@ -183,6 +184,24 @@ article{
     height: auto;
 }
 
+@supports(grid-area: auto){
+    .article{
+        display: grid;
+        grid-template-columns: 144px auto;
+        position: static;
+        padding-left: 0;
+        min-height: auto;
+    }
+
+    .article img{
+        position: static;
+        grid-area: image;
+        justify-self: center;
+        align-self: center;
+        grid-row: 1 / 100;
+        grid-column: 1 / 2;
+    }
+}
 /* ========================/main=========================== */
 
 /* =======================footer=========================== */
