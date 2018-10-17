@@ -195,8 +195,7 @@ article{
 
     .article img{
         position: static;
-        justify-self: center;
-        align-self: center;
+        place-self: center;
         grid-row: 1 / 100;
         grid-column: 1 / 2;
     }
